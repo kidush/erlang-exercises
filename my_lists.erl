@@ -4,7 +4,7 @@
 
 % Sum with Tail recursion
 sum(Xs) ->
-    sum([Xs, 0).
+    sum(Xs, 0).
 sum([], S) ->
     S;
 sum([X|Xs], S) ->
